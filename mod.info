@@ -1,6 +1,7 @@
-name=Player Shops (Albion's Update)
+name=Player Shops Project RP Compatibility
 poster=poster.png
-id=PlayerShops
+id=ZZZZAlbionPlayerShops_ModCompat
 versionMin=41.67
-description=Place shops for trading between players. Original by Browser8.
+require=ZZZProjectRP,PlayerShops
+description=Required for Project RP and Player Shops (Albion's Update) to play nicely
 url=
