@@ -2,6 +2,6 @@ name=Player Shops Project RP Compatibility
 poster=poster.png
 id=ZZZZAlbionPlayerShops_ModCompat
 versionMin=41.67
-require=ZZZProjectRP,PlayerShops
+require=ZZZProjectRP,ZAlbionPlayerShops
 description=Required for Project RP and Player Shops (Albion's Update) to play nicely
 url=
