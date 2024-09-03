@@ -164,7 +164,7 @@ local restrictDismantle = function()
   ---@diagnostic disable-next-line: duplicate-set-field
   function ISMoveableSpriteProps.canScrapObjectInternal(self, _result, _object)
       local _return = _canScrapObjectInternal(self, _result, _object)
-      if _return then
+      if _return and _object then
           if not PlayerShops.hasAccessToShop(_object, getPlayer()) then
               return false
           end
@@ -179,7 +179,7 @@ local restrictPickup = function()
   ---@diagnostic disable-next-line: duplicate-set-field
   function ISMoveableSpriteProps.canPickUpMoveable(self, _character, _square, _object)
       local _return = _canPickUpMoveable(self, _character, _square, _object)
-      if _return then
+      if _return and _object then
           if not PlayerShops.hasAccessToShop(_object, _character) then
               return false
           end
